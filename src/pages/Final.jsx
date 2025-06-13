@@ -87,7 +87,7 @@ export default function Final() {
                 Junte as informações que você já obteve de cada uma das fases
                 anteriores (letras) e a resposta deste enigma de agora, que não
                 é uma letra. <br />
-                Marque os perfis @lu_4.n e @kozmositesile com esta frase:
+                Marque os perfis @lu_4.n e @kozmotisesile no Instagram com esta frase: 
                 {frase} + a resposta completa do enigma.
               </h2>
             </>
