@@ -41,7 +41,7 @@ export default function Sticks() {
       ) : (
         <div className="bg-black flex flex-col items-center justify-center">
           <label className="text-2xl text-white font-bold antialiased ">
-            Digite uma senha para continuar este enigma.
+            Digite a resposta do demônio para continuar este enigma.
           </label>
           <input
             className="ring-1 ring-gray-800 bg-stone-950 w-32 h-16 text-white uppercase font-bold text-center mt-16"

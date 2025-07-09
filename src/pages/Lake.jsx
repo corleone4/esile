@@ -7,7 +7,6 @@ import audio from "../assets/sounds/tchaikovski.mp3";
 export default function Lake() {
   const correctPassword = "corleone";
   const nextStepPassword = "Tchaikovski";
-  // m na tabela ascii
   const [isCorrect, setIsCorrect] = useState(false);
   const [nextStep, setNextStep] = useState(false);
 
@@ -33,7 +32,7 @@ export default function Lake() {
   }
 
   useEffect(() => {
-    document.title = "Pitágoras + Excel";
+    document.title = "Tabela Pitagórica";
   }, []);
 
   function handleAccess(e) {
@@ -68,12 +67,6 @@ export default function Lake() {
             </>
           ) : (
             <>
-              <enigma
-                dangerouslySetInnerHTML={{
-                  __html:
-                    "<!-- lembra do que você usou no enigma no anjo? use aqui também. -->",
-                }}
-              ></enigma>
               <img className="w-90 h-90" src={imagem} />
               <h2 className="mt-4 text-center text-stone-700">
                 {" "}

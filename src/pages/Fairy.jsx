@@ -12,7 +12,7 @@ export default function Fairy() {
       <>
         <img className="w-90 h-90" src={imagem} />
         <h2 className="mt-4 text-stone-800">
-          vetor(4) = ["T", "a", "t", "l"] <br/>
+          vetor[4] = ["T", "a", "t", "l"] <br/>
           Imprimir vetor[2] ??
         </h2>
         <h2 className="mt-4 text-stone-800">Lembre-se, Tatl não serve para este vetor, procure alguem para colocar em seu lugar.</h2>

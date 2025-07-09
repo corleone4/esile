@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import imagem from "../assets/img/angel.png";
 import Modal from "../components/Modal";
-// import Password from "../components/Password";
+
 export default function Angel() {
   const correctPassword = "77";
   // m na tabela ascii
@@ -40,17 +40,18 @@ export default function Angel() {
 
           <img className="w-90 h-90" src={imagem} onClick={handleVisibility} />
           <h2 className="mt-4 text-stone-950">
-            O anjo está olhando, relutante, para o topo do inalcançavel, em
+            O anjo está olhando, relutante, para o <b className="text-stone-900">topo</b> do inalcançavel, em
             prantos, pois sabe que apenas você pode alterar a realidade da qual ela está presa.
           </h2>
           <h2 className="mt-4 text-stone-950">
-           Mas, será que esta entidade realmente é chamada de anjo? Descubra suas origens.
+            Mas, será que esta entidade realmente é chamada de anjo? Descubra suas origens.
           </h2>
+          <p className="mt-4 text-stone-950">Dica: Resposta em inglês no url :D -{'>'} https://esile.vercel.app/[resposta]</p>
         </>
       ) : (
         <div className="bg-black flex flex-col items-center justify-center">
           <label className="text-2xl text-white font-bold antialiased ">
-            Digite uma senha para continuar este enigma.
+            Digite a resposta do olho para continuar este enigma.
           </label>
           <input
             className="ring-1 ring-gray-800 bg-stone-950 w-32 h-16 text-white uppercase font-bold text-center mt-16"
